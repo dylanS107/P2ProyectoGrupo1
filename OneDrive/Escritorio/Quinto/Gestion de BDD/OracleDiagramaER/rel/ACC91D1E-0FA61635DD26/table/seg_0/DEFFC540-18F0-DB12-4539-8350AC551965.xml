@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEFFC540-18F0-DB12-4539-8350AC551965" schemaObject="A2983EC9-A79C-CE87-D783-91669B64E2F4" name="PRODUCTOS">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PRODUCTOS</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:18 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="DB14CDAB-74A3-0B8A-C86F-8B043201A02D">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9B29AB8D-4C04-0BBC-7213-1BA30134E601">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="9174E0C4-C018-EEA4-B676-DB906150A963">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="E605BC6E-D3C4-30E1-C9B3-FAC6AF890113">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="5B5654A6-493D-D9D5-4500-9A9054F5B8A7">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>STOCK</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBF2E12B-583E-C52A-84D8-64DCF792FBB5" schemaObject="A2983EC9-A79C-CE87-D783-91669B64E2F4" name="PRODUCTOS_PK">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008322</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB14CDAB-74A3-0B8A-C86F-8B043201A02D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

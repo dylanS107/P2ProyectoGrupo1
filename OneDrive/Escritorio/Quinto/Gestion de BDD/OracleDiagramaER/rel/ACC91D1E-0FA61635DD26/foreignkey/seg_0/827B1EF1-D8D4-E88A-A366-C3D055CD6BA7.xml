@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="827B1EF1-D8D4-E88A-A366-C3D055CD6BA7" containerWithKeyObject="D32B509E-E587-BE8F-F3AE-AC50011FC004" localFKIndex="B3F7A019-21CF-88B0-8C67-23B82F60C78E" name="FK_PEDIDOS_CLIENTE">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_PEDIDOS_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:20 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<referredTableLongName>SYSTEM.CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>53BBCB2E-9E61-FB3F-43A3-8D423E9CB363</referredTableID>
+<keyObject>2BC69EAF-3DDD-2B75-60DB-C8A28D7E69EB</keyObject>
+<referredKeyID>2BC69EAF-3DDD-2B75-60DB-C8A28D7E69EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

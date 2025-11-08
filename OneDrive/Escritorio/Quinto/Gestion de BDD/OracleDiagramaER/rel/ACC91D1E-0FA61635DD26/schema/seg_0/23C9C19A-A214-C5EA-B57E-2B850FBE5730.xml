@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MDSYS" directorySegmentName="seg_0" id="23C9C19A-A214-C5EA-B57E-2B850FBE5730">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:45:26 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<importedID>011EB14E-0677-77B8-8425-3AE2F5CA7B17</importedID>
+</SchemaObject>

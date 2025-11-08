@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="OracleDiagramaER" id="B14230CE-9FD3-B8E5-CD59-6C56C33C1081" version="3.5">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:43:02 UTC</createdTime>
+<ownerDesignName>OracleDiagramaER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B14230CE-9FD3-B8E5-CD59-6C56C33C1081</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2B9C44E1-E9D2-9805-E916-D984427EAFD2">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0C5B023E-1E7C-4138-C34F-911B07D5D182">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
