@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CCC766A-6D3B-F465-2DB0-0BA2FA32D4F0" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="DIM_TIEMPO">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>DIM_TIEMPO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>563A148A-31D6-AFB1-EACF-5BFA437C982F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIEMPO" id="534F55A7-4BF6-46EC-D91E-98E72F04A4C4">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_TIEMPO</sourceObjSchema>
+<sourceObjName>ID_TIEMPO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>933160CC-4540-33B0-5BEF-0ECAF4558FB3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="7E0680B5-AE3F-F810-B8F8-DEDEF754E7FC">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_TIEMPO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>E4EC6E1E-2694-1B41-F9EE-9506C3C601FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="3540E8EE-B3C6-2D3C-7901-D5473EDC057B">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_TIEMPO</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>82AAFCA9-91DD-5C61-5E36-AFE6C761017C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="8528C4ED-FA01-D254-55B7-6A5071D614C1">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_TIEMPO</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>D987D233-384B-47B4-050D-FE006ED65AA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4601E83-CE13-3B8C-114B-B2B8F357CF48" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="DIM_TIEMPO_PK">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>SYS_C008222</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>B4BBF9EF-8F62-48F8-13F5-36EAF17D0AB4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="534F55A7-4BF6-46EC-D91E-98E72F04A4C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

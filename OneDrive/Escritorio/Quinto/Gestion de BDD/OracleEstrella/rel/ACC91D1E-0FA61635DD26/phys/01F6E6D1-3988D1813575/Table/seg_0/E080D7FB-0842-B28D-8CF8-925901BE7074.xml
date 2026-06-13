@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_CLIENTE" directorySegmentName="seg_0" id="E080D7FB-0842-B28D-8CF8-925901BE7074">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>10D604CC-BB2F-BB13-44A7-49F17E7719B5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EA9EE3-D608-BCB9-4F32-D7A5A3F76979</segment>
+<tableSpace>F98702F7-4109-5950-057F-E671FA281CD6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CLIENTE" id="2B14836D-9FC0-356C-2AB6-C5B02B71E8C6">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="8C8BCCD4-2D7D-E3DB-703E-CF5D6E96981D">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="95BE2F02-9F99-0365-A34D-BF5C2004D094">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="E892E0B1-ECF7-EA1C-8A1F-D7AC17F282AA">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_CLIENTE_PK" id="0C6FCF3F-BD8A-8F73-8BF6-978BEDA03D51">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>10D604CC-BB2F-BB13-44A7-49F17E7719B5</schemaObject>
+<segment>735A9778-6E70-9E6A-B3A7-656D9D6052CD</segment>
+<tableSpace>F98702F7-4109-5950-057F-E671FA281CD6</tableSpace>
+<indexSegment>735A9778-6E70-9E6A-B3A7-656D9D6052CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

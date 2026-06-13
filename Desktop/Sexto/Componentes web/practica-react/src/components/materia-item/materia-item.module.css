@@ -1,0 +1,38 @@
+.materiaItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    width: min(100%, 520px);
+    padding: 16px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.icono {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #f0f3f7;
+    color: #7b3f2f;
+    font-size: 24px;
+}
+
+.contenido {
+    min-width: 0;
+}
+
+.nombre {
+    margin: 0 0 6px;
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+.descripcion {
+    margin: 0;
+    color: #555555;
+    line-height: 1.5;
+}

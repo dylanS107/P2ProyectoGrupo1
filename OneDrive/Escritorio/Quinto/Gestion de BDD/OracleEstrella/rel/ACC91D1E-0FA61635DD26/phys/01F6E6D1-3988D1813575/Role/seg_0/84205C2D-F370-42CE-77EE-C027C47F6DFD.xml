@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="ROL_COMERCIAL" directorySegmentName="seg_0" id="84205C2D-F370-42CE-77EE-C027C47F6DFD">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjName>ROL_COMERCIAL</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:35 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions7" id="7B205AFB-5347-D94B-9C04-CC92D05201B4">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DC3E1953-F78D-C620-7F7A-AC843E66EF6D</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

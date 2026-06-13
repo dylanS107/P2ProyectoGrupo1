@@ -1,0 +1,38 @@
+.inicioPage {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.inicioPage h1 {
+    text-align: center;
+}
+
+.inicioPage > p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.inicioGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.inicioCard {
+    padding: 16px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.inicioCard h2 {
+    margin: 0 0 8px;
+    color: #7b3f2f;
+    font-size: 20px;
+}
+
+.inicioCard p {
+    margin: 0;
+    line-height: 1.5;
+}

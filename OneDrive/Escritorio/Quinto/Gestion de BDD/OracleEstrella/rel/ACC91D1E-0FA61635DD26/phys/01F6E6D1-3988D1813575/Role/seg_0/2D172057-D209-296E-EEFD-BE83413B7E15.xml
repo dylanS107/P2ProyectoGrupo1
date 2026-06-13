@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="ROL_ANALITICS" directorySegmentName="seg_0" id="2D172057-D209-296E-EEFD-BE83413B7E15">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjName>ROL_ANALITICS</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:35 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="712D7E95-9456-5F5C-C11A-3A0C1136BFA4">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E080D7FB-0842-B28D-8CF8-925901BE7074</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="1650F8FA-2261-1857-06C7-CC1C00405DA8">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>83BE98F1-35B7-5DED-1C7C-9D02B13CC9BE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="1330DBC3-F1AC-E82D-CD75-596D7CE7101F">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DC3E1953-F78D-C620-7F7A-AC843E66EF6D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="DB72F457-CBC7-DDBF-F1CC-DBF0BAC3C4D4">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>5CCC766A-6D3B-F465-2DB0-0BA2FA32D4F0</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="08836BF2-6065-DDC4-4E8E-7C56A008F904">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>56885B7C-6ABB-D7EE-61C7-8AA3C527DBE4</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

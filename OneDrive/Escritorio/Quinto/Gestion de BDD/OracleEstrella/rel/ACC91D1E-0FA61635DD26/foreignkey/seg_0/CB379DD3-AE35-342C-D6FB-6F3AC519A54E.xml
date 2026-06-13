@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB379DD3-AE35-342C-D6FB-6F3AC519A54E" containerWithKeyObject="56885B7C-6ABB-D7EE-61C7-8AA3C527DBE4" localFKIndex="E91B092A-2434-3F8D-960E-3923B08374A3" name="FK_FACT_CLIENTE">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>FK_FACT_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>E5192F22-9B1C-648D-E058-BA9119418D9A</importedID>
+<referredTableLongName>TECHSTORE.DIM_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E080D7FB-0842-B28D-8CF8-925901BE7074</referredTableID>
+<keyObject>0C6FCF3F-BD8A-8F73-8BF6-978BEDA03D51</keyObject>
+<referredKeyID>0C6FCF3F-BD8A-8F73-8BF6-978BEDA03D51</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

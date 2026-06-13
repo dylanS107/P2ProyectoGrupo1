@@ -1,0 +1,17 @@
+.container {
+    border: 2px solid black;
+    padding: 16px;
+    text-align: center;
+}
+
+.titulo {
+    color: black;
+}
+
+.activo {
+    color: green;
+}
+
+.inactivo {
+    color: red;
+}

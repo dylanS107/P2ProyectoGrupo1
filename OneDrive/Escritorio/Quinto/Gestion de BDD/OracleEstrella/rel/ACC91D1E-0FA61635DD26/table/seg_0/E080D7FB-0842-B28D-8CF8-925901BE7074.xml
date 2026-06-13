@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E080D7FB-0842-B28D-8CF8-925901BE7074" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="DIM_CLIENTE">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>DIM_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>434E13E6-475C-9BE3-C71B-BECA075B3263</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="2B14836D-9FC0-356C-2AB6-C5B02B71E8C6">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_CLIENTE</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>CA07E88D-A181-5EB2-30E6-3670E984C833</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8C8BCCD4-2D7D-E3DB-703E-CF5D6E96981D">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_CLIENTE</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>66478297-01C1-CC44-67EF-1F1404272D2D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="E892E0B1-ECF7-EA1C-8A1F-D7AC17F282AA">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_CLIENTE</sourceObjSchema>
+<sourceObjName>CORREO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>CD21FD1A-6539-A2F6-DDE0-C91AD739937A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="95BE2F02-9F99-0365-A34D-BF5C2004D094">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>DIM_CLIENTE</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>33582C08-F807-5B46-E530-7E0588E0BB96</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C6FCF3F-BD8A-8F73-8BF6-978BEDA03D51" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="DIM_CLIENTE_PK">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>SYS_C008220</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>0EC29A53-1880-A6F0-3C6C-ABED1DD55609</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B14836D-9FC0-356C-2AB6-C5B02B71E8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

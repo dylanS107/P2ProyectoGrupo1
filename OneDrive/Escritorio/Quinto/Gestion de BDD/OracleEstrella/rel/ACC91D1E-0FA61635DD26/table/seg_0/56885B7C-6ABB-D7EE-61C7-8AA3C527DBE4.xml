@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56885B7C-6ABB-D7EE-61C7-8AA3C527DBE4" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="FACT_VENTAS">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>FACT_VENTAS</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>9EC26950-4A20-8787-6946-B2B57A802CE9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="9D525D44-5AD4-303C-A5B7-05E811C1CF1B">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>ID_VENTA</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>514822B9-F142-E200-BFAC-3E857EC2CBBE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_CLIENTE" id="A2267483-71AD-C45B-480B-ADBD3F063969">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>FK_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>16D59732-4401-93EE-D72F-7120F372D4A5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB379DD3-AE35-342C-D6FB-6F3AC519A54E" referredColumn="2B14836D-9FC0-356C-2AB6-C5B02B71E8C6"/>
+</associations>
+</Column>
+<Column name="FK_PRODUCTO" id="D004557E-2A1D-6EF5-2E32-31901C9D7A8C">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>FK_PRODUCTO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>47BB0E91-AB7B-36FC-5A18-5C742494CFC9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F82A10B-E0F5-5252-813D-B922B337F182" referredColumn="E1D9D607-6D3D-178A-1CFB-C72A1BD00B25"/>
+</associations>
+</Column>
+<Column name="FK_TIEMPO" id="853426E3-29FE-A808-2114-FA4D1BE3E39E">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>FK_TIEMPO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>ACE0425E-49E3-B66A-02A6-6BA5F367B530</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B767C3D6-3236-AEFE-219E-A479F6072093" referredColumn="534F55A7-4BF6-46EC-D91E-98E72F04A4C4"/>
+</associations>
+</Column>
+<Column name="FK_PAGO" id="0306FB03-314E-05D9-8566-F730E76635B5">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>FK_PAGO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>2167413C-39A6-72B9-F16B-C54E9600EBC8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E2BD61F-462B-CDC3-B2B8-8C41C40E3369" referredColumn="EB3D59F9-5640-66C8-709C-6A18D6A8857C"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="BFABA050-CFD9-8453-EE0F-DB74C6D6DA5F">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>EA28D997-6DB6-58ED-2327-163A6226222D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBTOTAL" id="C8E2DEBD-F39C-3C77-808C-8E7F0174E857">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>FACT_VENTAS</sourceObjSchema>
+<sourceObjName>SUBTOTAL</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>ED1051AA-42AD-F4C0-4776-32B37F620E2B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EDF9261-438D-6EDF-8768-AA56288054A4" schemaObject="10D604CC-BB2F-BB13-44A7-49F17E7719B5" name="FACT_VENTAS_PK">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>SYS_C008224</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>59F72782-134E-B98F-DFF8-25EDDF042C60</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D525D44-5AD4-303C-A5B7-05E811C1CF1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E91B092A-2434-3F8D-960E-3923B08374A3" name="FK_FACT_CLIENTE">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2267483-71AD-C45B-480B-ADBD3F063969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2201721F-EF31-4CFC-1591-85E0C26A7CCC" name="FK_FACT_PAGO">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0306FB03-314E-05D9-8566-F730E76635B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D847FFE4-64BC-93DC-A118-4A4CF190CF11" name="FK_FACT_PRODUCTO">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D004557E-2A1D-6EF5-2E32-31901C9D7A8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E8F603-E2A5-DF93-AEB2-259840930FB4" name="FK_FACT_TIEMPO">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="853426E3-29FE-A808-2114-FA4D1BE3E39E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

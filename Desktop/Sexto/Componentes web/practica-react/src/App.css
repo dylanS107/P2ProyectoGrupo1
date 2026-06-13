@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 32px 16px;
+  background: #f4f7f6;
+}
+
+.global-button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: #7b3f2f;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.global-button:hover {
+  background: #5f3024;
+}

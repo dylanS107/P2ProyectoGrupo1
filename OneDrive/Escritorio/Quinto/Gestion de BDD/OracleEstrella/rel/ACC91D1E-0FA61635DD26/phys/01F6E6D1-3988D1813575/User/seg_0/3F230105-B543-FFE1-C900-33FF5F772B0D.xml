@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="3F230105-B543-FFE1-C900-33FF5F772B0D">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:18 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>A2983EC9-A79C-CE87-D783-91669B64E2F4</schemaObject>
+<privileges>GLOBAL QUERY REWRITE, CREATE MATERIALIZED VIEW, SELECT ANY TABLE, CREATE TABLE, UNLIMITED TABLESPACE</privileges>
+<privilegesWithAdminOption>DEQUEUE ANY QUEUE, ENQUEUE ANY QUEUE, MANAGE ANY QUEUE</privilegesWithAdminOption>
+<profile>DEFAULT</profile>
+</UserOraclev10g>

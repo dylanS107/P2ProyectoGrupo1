@@ -1,0 +1,28 @@
+.practicaPage {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.practicaPage h1 {
+    text-align: center;
+}
+
+.practicaPage p {
+    line-height: 1.6;
+}
+
+.practicaImg {
+    display: block;
+    width: min(100%, 420px);
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.practicaLista {
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    line-height: 1.7;
+}

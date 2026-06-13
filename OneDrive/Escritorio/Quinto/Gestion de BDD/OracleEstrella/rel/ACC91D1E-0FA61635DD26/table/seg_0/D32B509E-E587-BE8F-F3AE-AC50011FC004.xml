@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D32B509E-E587-BE8F-F3AE-AC50011FC004" schemaObject="A2983EC9-A79C-CE87-D783-91669B64E2F4" name="PEDIDOS">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PEDIDOS</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:18 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PEDIDO" id="6DD3911A-F278-E50C-171D-632F52C73091">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PEDIDOS</sourceObjSchema>
+<sourceObjName>ID_PEDIDO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="988580E1-1DF1-93EE-9D37-869E476AD636">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PEDIDOS</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="827B1EF1-D8D4-E88A-A366-C3D055CD6BA7" referredColumn="1D8104F0-A1A2-7577-EC2C-A0CF80402A22"/>
+</associations>
+</Column>
+<Column name="FECHA_PEDIDO" id="ACBF60F0-DFA3-6FBE-7969-0C43674C2B2D">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PEDIDOS</sourceObjSchema>
+<sourceObjName>FECHA_PEDIDO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="5CD88EB1-14F8-27A6-1161-5CB48A5CD474">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>PEDIDOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<defaultValue>&apos;Pendiente&apos;</defaultValue>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D95BDDB9-C4EA-FCA8-6496-3EBBDAEEF9A3" schemaObject="A2983EC9-A79C-CE87-D783-91669B64E2F4" name="PEDIDOS_PK">
+<sourceConnName>UES</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008326</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:19 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD3911A-F278-E50C-171D-632F52C73091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3F7A019-21CF-88B0-8C67-23B82F60C78E" name="FK_PEDIDOS_CLIENTE">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 04:51:20 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988580E1-1DF1-93EE-9D37-869E476AD636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="F98702F7-4109-5950-057F-E671FA281CD6">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:45:04 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="USERS01.DBF" id="0247ACAA-9ED5-7BBD-4496-3639E0ACF26F">
+<sourceConnName>UES</sourceConnName>
+<sourceObjName>C:\APP\LENOVO\PRODUCT\21C\ORADATA\XE\USERS01.DBF</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:53:23 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>C:\APP\LENOVO\PRODUCT\21C\ORADATA\XE\USERS01.DBF</fileName>
+<nextBlockSize>1280</nextBlockSize>
+<size>5120</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

@@ -1,0 +1,37 @@
+.nosotrosPage {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.nosotrosPage h1 {
+    text-align: center;
+}
+
+.nosotrosPage > p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.nosotrosInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.nosotrosInfo article {
+    padding: 16px;
+    border-left: 4px solid #7b3f2f;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.nosotrosInfo h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.nosotrosInfo p {
+    margin: 0;
+    line-height: 1.5;
+}

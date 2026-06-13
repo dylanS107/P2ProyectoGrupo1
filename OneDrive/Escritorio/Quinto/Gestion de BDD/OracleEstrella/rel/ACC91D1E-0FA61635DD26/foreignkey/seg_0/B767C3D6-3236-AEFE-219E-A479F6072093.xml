@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B767C3D6-3236-AEFE-219E-A479F6072093" containerWithKeyObject="56885B7C-6ABB-D7EE-61C7-8AA3C527DBE4" localFKIndex="35E8F603-E2A5-DF93-AEB2-259840930FB4" name="FK_FACT_TIEMPO">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjSchema>TECHSTORE</sourceObjSchema>
+<sourceObjName>FK_FACT_TIEMPO</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<importedID>D60C1DB2-B174-2689-D783-09965F2F0BF9</importedID>
+<referredTableLongName>TECHSTORE.DIM_TIEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CCC766A-6D3B-F465-2DB0-0BA2FA32D4F0</referredTableID>
+<keyObject>E4601E83-CE13-3B8C-114B-B2B8F357CF48</keyObject>
+<referredKeyID>E4601E83-CE13-3B8C-114B-B2B8F357CF48</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_TIEMPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

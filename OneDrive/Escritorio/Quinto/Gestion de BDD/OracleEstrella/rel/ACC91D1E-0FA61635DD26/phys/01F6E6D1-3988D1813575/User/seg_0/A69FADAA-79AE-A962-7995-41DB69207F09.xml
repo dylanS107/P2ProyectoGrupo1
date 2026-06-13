@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TECHSTORE" directorySegmentName="seg_0" id="A69FADAA-79AE-A962-7995-41DB69207F09">
+<sourceConnName>TECHSTORE</sourceConnName>
+<sourceObjName>TECHSTORE</sourceObjName>
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:30 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>10D604CC-BB2F-BB13-44A7-49F17E7719B5</schemaObject>
+</UserOraclev10g>

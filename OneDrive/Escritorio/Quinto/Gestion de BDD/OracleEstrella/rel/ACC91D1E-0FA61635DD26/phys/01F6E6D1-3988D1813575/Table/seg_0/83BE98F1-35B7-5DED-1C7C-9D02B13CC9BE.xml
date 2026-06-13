@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DIM_PAGO" directorySegmentName="seg_0" id="83BE98F1-35B7-5DED-1C7C-9D02B13CC9BE">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>10D604CC-BB2F-BB13-44A7-49F17E7719B5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7EA9EE3-D608-BCB9-4F32-D7A5A3F76979</segment>
+<tableSpace>F98702F7-4109-5950-057F-E671FA281CD6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_PAGO" id="A987358C-E768-4300-3704-72FE1BB9BCB9">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="METODO_PAGO" id="C04897CD-64FA-502D-6BB4-E7593ECD6373">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PAGO" id="EB3D59F9-5640-66C8-709C-6A18D6A8857C">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIM_PAGO_PK" id="DBB2FBB6-70AA-8C30-B8D0-9C4230E048DF">
+<createdBy>Lenovo</createdBy>
+<createdTime>2025-11-08 05:57:38 UTC</createdTime>
+<ownerDesignName>OracleEstrella</ownerDesignName>
+<schemaObject>10D604CC-BB2F-BB13-44A7-49F17E7719B5</schemaObject>
+<segment>735A9778-6E70-9E6A-B3A7-656D9D6052CD</segment>
+<tableSpace>F98702F7-4109-5950-057F-E671FA281CD6</tableSpace>
+<indexSegment>735A9778-6E70-9E6A-B3A7-656D9D6052CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
