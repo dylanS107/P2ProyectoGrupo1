@@ -1,0 +1,1 @@
+export { Practica } from './practica';

@@ -1,0 +1,22 @@
+.teamPage {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.teamGrid {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.teamCard {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #e6d7d0;
+}
+
+.teamCard h2 {
+  margin-top: 0;
+  color: #7b3f2f;
+}

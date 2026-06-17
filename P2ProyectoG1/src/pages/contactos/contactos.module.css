@@ -1,0 +1,41 @@
+.contactPage {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.loginForm {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.loginForm label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.loginForm input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+}
+
+.message {
+  margin: 16px 0;
+  color: #5f3024;
+  font-weight: 600;
+}
+
+.summary {
+  display: grid;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.activityList {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+}
