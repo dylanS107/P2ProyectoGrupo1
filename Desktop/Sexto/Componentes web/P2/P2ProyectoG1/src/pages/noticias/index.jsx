@@ -1,0 +1,1 @@
+export { Noticia } from './noticias';

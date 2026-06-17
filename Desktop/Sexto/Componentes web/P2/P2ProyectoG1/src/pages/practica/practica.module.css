@@ -1,0 +1,106 @@
+.practicePage {
+  display: grid;
+  gap: 28px;
+}
+
+.sectionCard {
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.sectionCard h1,
+.sectionCard h2 {
+  margin-top: 0;
+  color: #7b3f2f;
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.form label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form select {
+  cursor: pointer;
+  background-color: white;
+}
+
+.form select:hover {
+  border-color: rgb(63, 30, 227);
+}
+
+.buttonGroup {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.buttonGroup button {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: rgb(63, 30, 227);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.buttonGroup button:hover {
+  background: rgb(50, 20, 200);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(63, 30, 227, 0.3);
+}
+
+.message {
+  margin-top: 12px;
+  color: #5f3024;
+  font-weight: 600;
+}
+
+.resultBox {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #fdf3eb;
+  border: 1px solid #ffe1c9;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px 10px;
+  border: 1px solid #e2e2e2;
+  text-align: left;
+}
+
+.table th {
+  background: #f8f2ef;
+}
