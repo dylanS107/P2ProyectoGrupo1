@@ -1,47 +1,37 @@
-📐 Aplicación Matemática — Proyecto G1
-Aplicación web educativa e interactiva de matemáticas y ciencias, desarrollada con React + Vite. Permite calcular derivadas, simplificar expresiones, factorizar, calcular el peso de composición de materiales y registrar la actividad del usuario. Próximamente con conexión a base de datos mediante Supabase.
----
-🗂 Páginas del sitio
-Ruta	Descripción
-`/`	Inicio — presentación del sitio y acceso rápido
-`/noticias`	Noticias matemáticas recientes
-`/nosotros`	Equipo de trabajo
-`/practica`	Calculadora interactiva + tabla de composición
-`/contactos`	Login de usuario y registro de actividades
+# 📐 Aplicación Matemática — Proyecto G1
+
+¡Bienvenido a **Aplicación Matemática**! Una plataforma web educativa e interactiva diseñada para el aprendizaje y la resolución de problemas de matemáticas y ciencias. Este proyecto permite realizar operaciones simbólicas complejas (como derivadas, factorizaciones y simplificaciones), calcular el peso de composición de materiales y mantener un registro local de la actividad del usuario.
+
+Actualmente, la aplicación se encuentra en desarrollo activo, con próximas integraciones para la persistencia de datos y autenticación en la nube.
+
 ---
 
-🔌 APIs externas utilizadas
-Newton API
-Realiza operaciones simbólicas sobre expresiones matemáticas.
----
-GET https://newton.vercel.app/api/v2/{operacion}/{expresion}
----
-Operación	Endpoint ejemplo
-Derivar	`/derive/x^2`
-Simplificar	`/simplify/2x+3x`
-Factorizar	`/factor/x^2-1`
-Resolver	`/zeroes/x^2-4`
+## 🚀 Características Principales
+
+* **Cálculo Simbólico Avanzado:** Resolución de derivadas, simplificación de expresiones algebraicas y factorización en tiempo real.
+* **Herramientas Científicas:** Tabla de composición interactiva para calcular el peso de materiales.
+* **Historial de Actividad:** Registro local de operaciones y consultas realizadas para el seguimiento del usuario.
+* **Arquitectura SPA Moderna:** Navegación fluida y rápida sin recargas de página.
+
 ---
 
-📁 Estructura del proyecto
----
-src/
-├── components/
-│   ├── header/         # Barra de navegación
-│   ├── footer/         # Pie de página
-│   ├── layout/         # Contenedor general
-│   ├── modal/          # Modal de resultados
-│   └── concepto-card/  # Tarjeta de concepto
-├── pages/
-│   ├── inicio/         # Página principal
-│   ├── noticias/       # Noticias matemáticas
-│   ├── equipo-trabajo/ # Equipo del proyecto
-│   ├── practica/       # Calculadora + tabla
-│   └── contactos/      # Login y actividades
-├── services/
-│   └── newton-api.js   # Lógica de APIs y localStorage
-└── App.jsx             # Rutas principales
----
-📄 Licencia
-Proyecto académico — Grupo 1. Todos los derechos reservados.
----
+## 🗂 Estructura de Navegación (Rutas)
+
+El sitio utiliza un sistema de enrutamiento dinámico estructurado de la siguiente manera:
+
+| Ruta | Descripción |
+| :--- | :--- |
+| `/` | **Inicio** — Presentación general del sitio y accesos rápidos a los módulos. |
+| `/noticias` | **Noticias** — Artículos y novedades recientes del mundo matemático. |
+| `/nosotros` | **Nosotros** — Información sobre el equipo de trabajo detrás del proyecto. |
+| `/practica` | **Práctica** — Módulo de calculadora interactiva y tabla de composición. |
+| `/contactos` | **Contactos** — Login de usuario y panel de registro de actividades. |
+
+
+## 🔌 APIs Externas Utilizadas
+
+### Newton API
+Se utiliza para computar las operaciones simbólicas directamente desde el cliente. Las peticiones se realizan mediante el método `GET` utilizando la siguiente estructura base:
+
+```http
+GET [https://newton.vercel.app/api/v2/](https://newton.vercel.app/api/v2/){operacion}/{expresion}
